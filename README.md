@@ -1,11 +1,10 @@
 # express-sanitized
 
-[![npm version](https://badge.fury.io/js/express-sanitized.svg)](https://badge.fury.io/js/express-sanitized)
-[![Build Status](https://travis-ci.org/markau/express-sanitized.png?branch=master)](https://travis-ci.org/askhogan/express-sanitized)
-[![dependencies](https://david-dm.org/askhogan/express-sanitized.svg)](https://david-dm.org/askhogan/express-sanitized)
-[![devDependencies](https://david-dm.org/askhogan/express-sanitized/dev-status.svg)](https://david-dm.org/askhogan/express-sanitized?type=dev)
-[![peerDependencies](https://david-dm.org/askhogan/express-sanitized/peer-status.svg)](https://david-dm.org/askhogan/express-sanitized?type=peer)
-[![Known Vulnerabilities](https://snyk.io/test/github/askhogan/express-sanitized/badge.svg?targetFile=package.json)](https://snyk.io/test/github/askhogan/express-sanitized?targetFile=package.json)
+[![npm version](https://badge.fury.io/js/%40nemospeculo%2Fexpress-sanitized.svg)](https://badge.fury.io/js/%40nemospeculo%2Fexpress-sanitized)
+[![dependencies](https://david-dm.org/nemospeculo/express-sanitized.svg)](https://david-dm.org/nemospeculo/express-sanitized)
+[![devDependencies](https://david-dm.org/nemospeculo/express-sanitized/dev-status.svg)](https://david-dm.org/nemospeculo/express-sanitized?type=dev)
+[![peerDependencies](https://david-dm.org/nemospeculo/express-sanitized/peer-status.svg)](https://david-dm.org/nemospeculo/express-sanitized?type=peer)
+[![Known Vulnerabilities](https://snyk.io/test/github/nemospeculo/express-sanitized/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nemospeculo/express-sanitized?targetFile=package.json)
 
 ## Installation
 
@@ -38,7 +37,7 @@ will be sanitized to ' download now'.
 
 ## Limitations
 
-This is a basic implementation of [Caja-HTML-Sanitizer](https://github.com/theSmaw/Caja-HTML-Sanitizer) with the specific purpose of mitigating against persistent XSS risks. 
+This is a basic implementation of [Caja-HTML-Sanitizer](https://github.com/theSmaw/Caja-HTML-Sanitizer) with the specific purpose of mitigating against persistent XSS risks.
 
 ## Caveats
 
