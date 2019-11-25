@@ -1,16 +1,16 @@
 {
-  "name": "express-sanitized",
+  "name": "@nemospeculo/express-sanitized",
   "description": "Express middleware for the sanitizer module using Caja's HTML Sanitizer.",
   "version": "1.0.0",
-  "author": "Patrick Hogan <patrick@callinize.com>",
-  "homepage": "https://github.com/askhogan/express-sanitized",
+  "author": "nemosingulorum <nemosingulorum@gmail.com>",
+  "homepage": "https://github.com/nemospeculo/express-sanitized",
   "bugs": {
-    "email": "patrick@callinize.com",
-    "url": "https://github.com/askhogan/express-sanitized/issues"
+    "email": "nemosingulorum@gmail.com",
+    "url": "https://github.com/nemospeculo/express-sanitized/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/askhogan/express-sanitized.git"
+    "url": "git://github.com/nemospeculo/express-sanitized.git"
   },
   "license": "MIT",
   "main": "./index.js",
@@ -18,7 +18,7 @@
     "test": "mocha"
   },
   "engines": {
-    "node": "*"
+    "node": ">=8"
   },
   "dependencies": {
     "sanitizer": "0.1.3",
