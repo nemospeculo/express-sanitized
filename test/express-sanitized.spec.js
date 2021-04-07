@@ -35,7 +35,7 @@ describe('express-sanitizer test suite', function(){
             middleware()(mockRequest, mockResponse, function next(error) {
                 if (error) { throw new Error('Expected not to receive an error'); }
 
-                assert.equal(mockRequest.body.propertyToSanitize, " world");
+                assert.equal(mockRequest.body.propertyToSanitize, "&lt;script&gt;hello&lt;/script&gt; world");
                 done();
             });
         });
@@ -67,7 +67,7 @@ describe('express-sanitizer test suite', function(){
               .expect(200)
               .end(function (err, res) {
                 if (err) throw err;
-                expect(res.body.sanitized).toBe(" world");
+                expect(res.body.sanitized).toBe("&lt;script&gt;hello&lt;/script&gt; world");
                 done();
               });
           });

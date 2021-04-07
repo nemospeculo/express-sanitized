@@ -21,8 +21,8 @@
     "node": ">=8"
   },
   "dependencies": {
-    "sanitizer": "0.1.3",
-    "underscore": "1.9.1"
+    "underscore": "1.12.1",
+    "xss": "^1.0.8"
   },
   "keywords": [
     "express",
@@ -32,12 +32,12 @@
   ],
   "devDependencies": {
     "assert": "^2.0.0",
-    "body-parser": "^1.17.2",
-    "connect": "^3.6.2",
-    "expect": "^24.8.0",
+    "body-parser": "^1.19.0",
+    "connect": "^3.7.0",
+    "expect": "^26.6.2",
     "express": "^4.17.1",
-    "mocha": "^6.2.0",
-    "node-mocks-http": "^1.7.6",
-    "supertest": "^4.0.2"
+    "mocha": "^8.3.2",
+    "node-mocks-http": "^1.10.1",
+    "supertest": "^6.1.3"
   }
 }
