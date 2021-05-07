@@ -1,7 +1,7 @@
 {
   "name": "@nemospeculo/express-sanitized",
   "description": "Express middleware for the sanitizer module using Caja's HTML Sanitizer.",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "author": "nemosingulorum <nemosingulorum@gmail.com>",
   "homepage": "https://github.com/nemospeculo/express-sanitized",
   "bugs": {
